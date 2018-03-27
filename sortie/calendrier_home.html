@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Calendrier - test</title>
+    <style>
+    body{
+        outline: 1px dotted #F00;
+        width: 297mm;
+        heigh: 42cm;
+        min-height: 42cm; }
+    div{
+        width: 89mm;
+        margin: 0;
+        padding-top: 2mm;
+        text-align: center; }
+    .mois1{
+        outline: 1px solid #F00;
+        position: absolute; left: 12mm;
+        background-color: #FCC;
+        font-weight: bold;
+        font-size: 110%; }
+    .mois2{
+        outline: 1px solid #00F;
+        position: absolute; left: 105mm;
+        background-color: #A2A3FF;
+        font-weight: bold;
+        font-size: 110%; }
+    .mois3{
+        outline: solid 1px #0F0;
+        position: absolute; left: 198mm;
+        background-color: #CFC;
+        font-weight: bold;
+        font-size: 110%; }
+    .jour{
+        border-bottom: 1px solid black;
+        padding: 0;
+        min-height: 13mm;
+        background-color: #FFF;
+        background-image: url(./home_jour.svg);
+        background-repeat: no-repeat; }
+    .j_lun{
+        min-height: 13mm;
+        /*background-color: #B7F6FF;*/
+        background-image: url(./home_lun.svg); }
+    .j_sam{
+        min-height: 13mm;
+        /*background-color: #B7F6FF;*/
+        background-image: url(./home_sam.svg); }
+    .j_dim{
+        min-height: 13mm;
+        /*background-color: #B7F6FF;*/
+        background-image: url(./home_dim.svg); }
+    .j_fer{
+        min-height: 13mm;
+        /*background-color: #A4E2FF;*/
+        background-image: url(./home_fer.svg); }
+    .num{
+        position: absolute;
+        width: 10%;
+        font-weight: bold;
+        margin-top: 2mm;
+         }
+
+
+    .texte{
+        position: absolute;
+        left: 15%;
+        width: 80%;
+        font-size: 85%}
+
+    .astr{
+        position: absolute;
+        left: 15%;
+        width: 15%;
+        border: none;
+        /*margin-top: 1mm;*/
+        margin-left: 2mm;
+        min-height: 13mm;
+        background-image: url(./home_astr.svg);
+        background-repeat: no-repeat; }
+    .scol{
+        position: absolute;
+        right: 0;
+        width: 10%;
+        border: none;
+        margin-top: 1mm;
+        margin-left: 2mm;
+        min-height: 13mm;
+        background-image: url(./fond_scol.svg);
+        background-repeat: no-repeat; }
+    .cong_p{
+        position: absolute;
+        right: 10%;
+        width: 10%;
+        border: none;
+        margin-top: 1mm;
+        margin-left: 2mm;
+        min-height: 13mm;
+        background-image: url(./fond_cong_p.svg);
+        background-repeat: no-repeat; }
+    .cong_m{
+        position: absolute;
+        right: 10%;
+        width: 10%;
+        border: none;
+        margin-top: 1mm;
+        margin-left: 2mm;
+        min-height: 13mm;
+        background-image: url(./fond_cong_m.svg);
+        background-repeat: no-repeat; }
+    </style>
+</head>
+
+<body>
+
+<div class="mois1">Mars
+    <div class="jour"><div class="num">1</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">2</div><div class="texte"></div></div>
+    <div class="jour j_sam"><div class="num">S3</div><div class="texte"></div></div>
+    <div class="jour j_dim"><div class="num">D4</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">5</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">6</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">7</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">8</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">9</div><div class="texte"></div></div>
+    <div class="jour j_sam"><div class="num">S10</div><div class="texte"></div></div>
+    <div class="jour j_dim"><div class="num">D11</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">12</div><div class="texte"></div><div class="astr"></div></div>
+    <div class="jour"><div class="num">13</div><div class="texte"></div><div class="astr"></div></div>
+    <div class="jour"><div class="num">14</div><div class="texte"></div><div class="astr"></div></div>
+    <div class="jour"><div class="num">15</div><div class="texte"></div><div class="astr"></div></div>
+    <div class="jour"><div class="num">16</div><div class="texte"></div><div class="astr"></div></div>
+    <div class="jour j_sam"><div class="num">S17</div><div class="texte"></div><div class="astr"></div></div>
+    <div class="jour j_dim"><div class="num">D18</div><div class="texte"></div><div class="astr"></div></div>
+    <div class="jour"><div class="num">19</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">20</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">21</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">22</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">23</div><div class="texte"></div></div>
+    <div class="jour j_sam"><div class="num">S24</div><div class="texte"></div></div>
+    <div class="jour j_dim"><div class="num">D25</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">26</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">27</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">28</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">29</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">30</div><div class="texte"></div></div>
+    <div class="jour j_sam"><div class="num">S31</div><div class="texte"></div></div>
+</div>
+<div class="mois2">Avril
+    <div class="jour j_dim"><div class="num">D1</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">2</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">3</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">4</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">5</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">6</div><div class="texte"></div></div>
+    <div class="jour j_sam"><div class="num">S7</div><div class="texte"></div><div class="scol"></div></div>
+    <div class="jour j_dim"><div class="num">D8</div><div class="texte"></div><div class="scol"></div></div>
+    <div class="jour"><div class="num">9</div><div class="texte"></div><div class="scol"></div></div>
+    <div class="jour"><div class="num">10</div><div class="texte"></div><div class="scol"></div></div>
+    <div class="jour"><div class="num">11</div><div class="texte"></div><div class="scol"></div></div>
+    <div class="jour"><div class="num">12</div><div class="texte"></div><div class="scol"></div></div>
+    <div class="jour"><div class="num">13</div><div class="texte"></div><div class="scol"></div></div>
+    <div class="jour j_sam"><div class="num">S14</div><div class="texte"></div><div class="scol"></div></div>
+    <div class="jour j_dim"><div class="num">D15</div><div class="texte"></div><div class="scol"></div></div>
+    <div class="jour"><div class="num">16</div><div class="texte"></div><div class="scol"></div></div>
+    <div class="jour j_fer"><div class="num">17</div><div class="texte">Lundi de Pâques</br></div><div class="scol"></div></div>
+    <div class="jour"><div class="num">18</div><div class="texte"></div><div class="scol"></div></div>
+    <div class="jour"><div class="num">19</div><div class="texte"></div><div class="scol"></div></div>
+    <div class="jour"><div class="num">20</div><div class="texte"></div><div class="scol"></div></div>
+    <div class="jour j_sam"><div class="num">S21</div><div class="texte"></div><div class="scol"></div></div>
+    <div class="jour j_dim"><div class="num">D22</div><div class="texte"></div><div class="scol"></div></div>
+    <div class="jour"><div class="num">23</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">24</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">25</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">26</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">27</div><div class="texte"></div></div>
+    <div class="jour j_sam"><div class="num">S28</div><div class="texte"></div></div>
+    <div class="jour j_dim"><div class="num">D29</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">30</div><div class="texte"></div></div>
+</div>
+<div class="mois3">Mai
+    <div class="jour j_fer"><div class="num">1</div><div class="texte">Fête du Travail</br></div></div>
+    <div class="jour"><div class="num">2</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">3</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">4</div><div class="texte"></div></div>
+    <div class="jour j_sam"><div class="num">S5</div><div class="texte"></div></div>
+    <div class="jour j_dim"><div class="num">D6</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">7</div><div class="texte"></div></div>
+    <div class="jour j_fer"><div class="num">8</div><div class="texte">8 mai 1945</br></div></div>
+    <div class="jour"><div class="num">9</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">10</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">11</div><div class="texte"></div></div>
+    <div class="jour j_sam"><div class="num">S12</div><div class="texte"></div></div>
+    <div class="jour j_dim"><div class="num">D13</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">14</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">15</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">16</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">17</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">18</div><div class="texte"></div></div>
+    <div class="jour j_sam"><div class="num">S19</div><div class="texte"></div></div>
+    <div class="jour j_dim"><div class="num">D20</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">21</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">22</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">23</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">24</div><div class="texte"></div></div>
+    <div class="jour j_fer"><div class="num">25</div><div class="texte">Ascension</br></div></div>
+    <div class="jour j_sam"><div class="num">S26</div><div class="texte"></div></div>
+    <div class="jour j_dim"><div class="num">D27</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">28</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">29</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">30</div><div class="texte"></div></div>
+    <div class="jour"><div class="num">31</div><div class="texte"></div></div>
+</div>
+
+
+
+</body>
+</html>

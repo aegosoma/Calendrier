@@ -1,0 +1,11 @@
+1 1 Jour de l'an
+4 2 Lundi de Pâques
+5 1 Fête du Travail
+5 21 Pentecôte
+5 8 8 mai 1945
+5 10 Ascension
+7 14 Fête Nationale
+8 15 Assomption
+11 1 Toussaint
+11 11 Armistice
+12 25 Noël
